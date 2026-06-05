@@ -1,5 +1,5 @@
 # fabulari-app
-# 🌙 Fabulari
+#  Fabulari
 ### *"Pequeñas historias con gran mensaje."*
 
 > App Android que genera cuentos terapéuticos personalizados con IA para trabajar la inteligencia emocional infantil.
@@ -14,7 +14,7 @@ Cuando un niño tiene miedo a la oscuridad, está celoso de su hermano o no sabe
 
 ---
 
-## ✨ Funcionalidades principales
+##  Funcionalidades principales
 
 - **Generación personalizada** — El padre elige emoción, tono, estilo de ilustración, personajes y describe la situación de su hijo. La IA genera el cuento, las ilustraciones y la narración sin escribir una línea de prompt.
 - **Método de las 4 fases** — VER · LEER · PENSAR · SOÑAR
@@ -24,7 +24,7 @@ Cuando un niño tiene miedo a la oscuridad, está celoso de su hermano o no sabe
 
 ---
 
-## 📱 Capturas de pantalla
+##  Capturas de pantalla
 
 | Biblioteca | Crear cuento (1/3) | Crear cuento (2/3) |
 |:---:|:---:|:---:|
@@ -44,7 +44,7 @@ Cuando un niño tiene miedo a la oscuridad, está celoso de su hermano o no sabe
 
 ---
 
-## 🏗️ Arquitectura del sistema
+##  Arquitectura del sistema
 
 ```
 ┌─────────────────┐         ┌──────────────────────────────────┐
@@ -65,7 +65,7 @@ Cuando un niño tiene miedo a la oscuridad, está celoso de su hermano o no sabe
 
 ---
 
-## 🔄 Flujo de generación de un cuento
+##  Flujo de generación de un cuento
 
 ```
 Padre configura el cuento
@@ -92,7 +92,7 @@ INSERT en tabla cuentos → disponible en biblioteca
 
 ---
 
-## 🗄️ Modelo de datos
+##  Modelo de datos
 
 8 tablas en PostgreSQL con RLS activo en todas:
 
@@ -104,7 +104,7 @@ INSERT en tabla cuentos → disponible en biblioteca
 
 ---
 
-## 🔐 Seguridad
+##  Seguridad
 
 - Credenciales en `.env`, nunca hardcodeadas
 - **RLS** en todas las tablas — cada familia solo accede a sus propios datos
@@ -113,7 +113,7 @@ INSERT en tabla cuentos → disponible en biblioteca
 
 ---
 
-## 🛠️ Stack tecnológico
+##  Stack tecnológico
 
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
@@ -153,7 +153,7 @@ INSERT en tabla cuentos → disponible en biblioteca
 Desarrollo de Aplicaciones Multiplataforma (DAM)
 Universidad Francisco de Vitoria · 2026
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/tu-perfil)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/tu-perfil](https://www.linkedin.com/in/jaimefontang/))
 
 ---
 
